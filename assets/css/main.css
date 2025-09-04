@@ -1,3 +1,189 @@
+/* Pleasant, modern color palette and section backgrounds */
+
+
+
+
+
+:root {
+	--primary: #2196f3; /* blue */
+	--primary-dark: #1769aa;
+	--secondary: #e0f7fa; /* light teal */
+	--accent: #43e97b; /* green accent */
+	--accent-dark: #1cb35c;
+	--section-bg: linear-gradient(135deg, #e3f2fd 60%, #b2ebf2 100%); /* blue to teal gradient */
+	--section-alt-bg: linear-gradient(135deg, #b2ebf2 60%, #e3f2fd 100%); /* teal to blue gradient */
+	--hero-bg: linear-gradient(120deg, #2196f3 0%, #43e97b 100%);
+	--card-bg: #fafdff;
+	--card-alt-bg: #e0f7fa;
+	--card-shadow: 0 4px 24px rgba(33,150,243,0.10);
+	--profile-link: #2196f3;
+	--navbar-bg: #fafdff;
+	--navbar-shadow: 0 2px 12px rgba(33,150,243,0.07);
+}
+
+body {
+	background: var(--section-bg) !important;
+	color: #1769aa;
+	min-height: 100vh;
+}
+
+#main-content {
+	background: transparent !important;
+}
+
+.section-card {
+	background: var(--card-bg);
+	border-radius: 1.5rem;
+	box-shadow: var(--card-shadow);
+	padding: 2rem 2rem 1.5rem 2rem;
+	margin-bottom: 2rem;
+	color: #1769aa;
+	transition: box-shadow 0.2s, background 0.2s;
+}
+.section-card-alt {
+	background: var(--card-alt-bg);
+	border-radius: 1.5rem;
+	box-shadow: var(--card-shadow);
+	padding: 2rem 2rem 1.5rem 2rem;
+	margin-bottom: 2rem;
+	color: #1769aa;
+	transition: box-shadow 0.2s, background 0.2s;
+}
+
+/* Alternate section backgrounds for visual variation */
+.section-card:nth-of-type(even),
+.section-card-alt:nth-of-type(odd) {
+	background: var(--section-alt-bg);
+}
+
+/* Navbar styling for more polish */
+#top-nav {
+	background: var(--navbar-bg) !important;
+	box-shadow: var(--navbar-shadow);
+}
+#top-nav .navbar-brand {
+	color: var(--primary-dark) !important;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+#top-nav .nav-link.active {
+	color: var(--accent-dark) !important;
+	font-weight: 600;
+	border-bottom: 2px solid var(--accent-dark);
+	background: linear-gradient(90deg, #e0f7fa 60%, #b2ebf2 100%);
+	border-radius: 0.25rem 0.25rem 0 0;
+}
+
+/* Card hover for engagement */
+.section-card:hover, .section-card-alt:hover {
+	box-shadow: 0 8px 32px rgba(33,150,243,0.18);
+	background: #e0f7fa;
+}
+
+/* Profile card pop */
+.profile-card {
+	background: linear-gradient(135deg, #e0f7fa 80%, #b2ebf2 100%);
+	border: none;
+	border-radius: 1.5rem;
+	box-shadow: 0 4px 24px rgba(33,150,243,0.13);
+	color: #1769aa;
+}
+
+.hero-section {
+	background: var(--hero-bg);
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+	box-shadow: 0 8px 32px rgba(33,150,243,0.10);
+	color: #fff;
+}
+.hero-img {
+	border: 4px solid #fff;
+	box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+}
+.hero-link {
+	color: var(--accent);
+	text-decoration: underline;
+}
+.hero-link:hover {
+	color: #fff;
+}
+
+.profile-card {
+	background: var(--card-bg);
+	border: none;
+	border-radius: 1.5rem;
+	box-shadow: var(--card-shadow);
+	color: #1769aa;
+}
+.profile-link {
+	color: var(--profile-link);
+	text-decoration: underline;
+}
+.profile-link:hover {
+	color: var(--primary-dark);
+}
+
+.section-card {
+	background: var(--card-bg);
+	border-radius: 1.5rem;
+	box-shadow: var(--card-shadow);
+	padding: 2rem 2rem 1.5rem 2rem;
+	margin-bottom: 2rem;
+	color: #1769aa;
+}
+.section-card-alt {
+	background: var(--card-alt-bg);
+	border-radius: 1.5rem;
+	box-shadow: var(--card-shadow);
+	padding: 2rem 2rem 1.5rem 2rem;
+	margin-bottom: 2rem;
+	color: #1769aa;
+}
+
+@media (max-width: 767.98px) {
+	.hero-section {
+		border-bottom-left-radius: 1rem;
+		border-bottom-right-radius: 1rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	.section-card, .section-card-alt {
+		padding: 1rem 0.5rem 1rem 0.5rem;
+		border-radius: 1rem;
+	}
+	#top-nav .navbar-brand {
+		display: block !important;
+		font-weight: 600;
+		color: var(--primary-dark);
+		font-size: 1.2rem;
+		letter-spacing: 0.5px;
+		margin-right: 1rem;
+	}
+}
+
+/* Enhance buttons for engagement */
+.btn-outline-primary {
+	border-color: var(--primary);
+	color: var(--primary);
+	background: #fff;
+	transition: all 0.2s;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus {
+	background: var(--primary);
+	color: #fff;
+}
+.btn-outline-light {
+	border-color: #fff;
+	color: #fff;
+	background: transparent;
+	transition: all 0.2s;
+}
+.btn-outline-light:hover, .btn-outline-light:focus {
+	background: #fff;
+	color: var(--primary);
+}
 /* MOBILE's FIRST - Custom properties */
 /* This classes will be then modified for bigger screens */
 
