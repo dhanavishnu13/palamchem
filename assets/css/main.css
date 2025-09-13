@@ -19,6 +19,16 @@
 	--profile-link: #2196f3;
 	--navbar-bg: #2196f3; /* Always blue */
 	--navbar-shadow: 0 2px 12px rgba(33,150,243,0.07);
+    --home-title-color: #222;
+}
+.theme-dark {
+    --home-title-color: #fff;
+}
+.home-title {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5em;
+    color: var(--home-title-color) !important;
 }
 
 body {
