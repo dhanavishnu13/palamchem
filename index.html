@@ -8,14 +8,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-		<meta name="description" content="Nicolas Meseguer's website, biography, education, previous experience and published papers."/>
-		<meta name="keywords" content="nicolasmeseguer, NicolasMeseguer, Nicolas Meseguer, nicolas meseguer youtube, nicolas meseguer github, nicolas meseguer murcia, nicolas meseguer cv, nicolas meseguer portfolio"/>
+		<meta name="description" content="Palaniappan Subramania's website, biography, education, previous experience and published papers."/>
+		<meta name="keywords" content="nicolasmeseguer, NicolasMeseguer, Palaniappan Subramania, Palaniappan Subramania youtube, Palaniappan Subramania github, Palaniappan Subramania murcia, Palaniappan Subramania cv, Palaniappan Subramania portfolio"/>
 		
-		<meta name="author" content="Nicolas Meseguer" />
+		<meta name="author" content="Palaniappan Subramania" />
 		<meta name="copyright" content="Work protected by copyright; no distribution without permission." />
 		
 		<!-- Title + Icon -->
-		<title>Nicolas Meseguer</title>
+		<title>Palaniappan Subramania</title>
 		<link rel="icon" type="image/x-icon" href="assets/documents/imgs/NicolasMeseguer.ico">
 
 		<!-- Improve SEO -->
@@ -49,7 +49,7 @@
             .catch(error => console.error('Error loading the configuration:', error));
     </script>
 
-	<body>
+	<body id="mainBody">
 
 		<!-- Bottom rounded button -->
 		<div class="options-button" id="options-toggler"><i class="fa-light fa-arrows-repeat"></i></div>
@@ -58,14 +58,20 @@
 
 
 		<!-- Navbar  -->
-		<nav id="top-nav" class="navbar navbar-expand-md navbar-light bg-light flex-md-nowrap flex-wrap">
+		<nav id="top-nav" class="navbar navbar-expand-md flex-md-nowrap flex-wrap">
 		   <div class="container justify-content-center">
-			<a class="navbar-brand" href="#">Nicolas Meseguer</a>
+			<a class="navbar-brand" href="#">Palaniappan Subramania</a>
 			   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3" aria-label="Toggle navigation">
 				   <span class="navbar-toggler-icon"></span>
 			   </button>
 			   <div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="collapsingNavbar3">
 				   <ul class="navbar-nav mx-auto language" id="navbarList">
+                        <li class="nav-item">
+                            <a class="nav-link" id="home" href="#" 
+                                data-es="Inicio" 
+                                data-en="Home">
+                            </a>
+                        </li>
 						<li class="nav-item">
 							<a class="nav-link active" id="aboutme" href="#" 
 								data-es="Sobre Mi" 
@@ -91,36 +97,11 @@
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" id="academic" href="#" 
-								data-es="Enseñanza" 
-								data-en="Academic">
-							</a>
-						</li>
-						<li class="nav-item">
 							<a class="nav-link" id="projects" href="#" 
 								data-es="Proyectos" 
-								data-en="Side Projects">
+								data-en="Projects">
 							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="conferences" href="#" 
-								data-es="Conferencias" 
-								data-en="Conferences">
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="experience" href="#" 
-								data-es="Experiencia" 
-								data-en="Experience">
-							</a>
-						</li>
-						<!-- Example using Photos -->
-						<!-- <li class="nav-item">
-							<a class="nav-link" id="photos" href="#" 
-								data-es="Fotos" 
-								data-en="Photos">
-							</a>
-						</li> -->
+						</li>						
 					</ul>
 				</div>
 			</div>
@@ -128,173 +109,92 @@
 
 		<div class="container" id="main-content">
 			<div class="row content" id="section-content">
+
+				<!-- Home Section for Palan -->
+				<div class="col-md-8 offset-md-1 mb-5 active" id="homeContent" style="display:none;">
+					<div class="container">
+						<div class="row language">
+													<h2 class="mt-2 home-title">Hi, I’m Palan</h2>
+													<p class="mt-2 justify">
+														I’m a chemist working with the chemistry of fuel cells and metal-air batteries in a research center.<br>
+														I’m originally from Karaikudi in the south of India, and now living in Pilsen, Czech Republic.
+													</p>
+							<h4 class="mt-4" data-en="What I do" data-es="Qué hago"></h4>
+							<p class="mt-1 justify">
+								I’m currently a Senior Researcher in the Renewable Energy section at New Technologies Research Centre (NTC) - University of West Bohemia, where I have a range of roles providing expertise on the chemistry of electrochemical energy storage and conversion device, as the sub-group leader for the fuel cell team in Advanced Materials department. I’ve been at NTC since 2021, after a 10-year stint in academia in Europe, Israel, and South Korea.
+							</p>
+							<h4 class="mt-4" data-en="My background and expertise" data-es="Mi experiencia"></h4>
+							<p class="mt-1 justify">
+								My professional background is in chemistry and electrochemistry. I obtained an MSc degree in 2005 and PhD in 2011 from the Alagappa University, and worked as a researcher at the IEMN-FR, Ariel University-IL and KU Leuven-BE. I have worked on material development for fuel cells, supercapacitors, metal-air batteries for over 15 years, since my PhD research project in 2006. Since then I have specialised in the electrochemistry of fuel cells, electrolysers and metal-air batteries.
+							</p>
+							<h4 class="mt-4" data-en="Projects past and present" data-es="Proyectos"></h4>
+							<p class="mt-1 justify">
+								At NTC, I am engaged in a variety of roles related to the electrochemical energy storage and conversion technologies, from design and development to characterisation and analytics. I am leading academic research projects, primarily focused on basic next-generation material development, diagnostics and component integration with devices with an aim to translate proof-of-concept research studies to commercial products.<br>
+								Among my previous academic projects, I have worked with electroanalysis, PEM fuel cell electrode materials, zinc-air batteries, plasmon induced electrochemical transformations, biosensors, supercapactiors, and conducting polymers.
+							</p>
+							<h4 class="mt-4" data-en="Everything else" data-es="Todo lo demás"></h4>
+							<p class="mt-1 justify">
+								I have strong interests in vedic astrology, birth chart analysis, stock market trading, and visits to various new places to enjoy the beauty of nature (riverfronts, forests and landscape).
+							</p>
+							<div class="mt-3 small text-muted">Any opinions expressed on this site are mine only.</div>
+						</div>
+					</div>
+				</div>
 				
-				<!-- Nicolas Meseguer profile and contact info -->
+				<!-- Palaniappan Subramania profile and contact info -->
 								 <div id="leftPanel" class="col-md-3 language d-none d-md-block">
-									 <div class="card profile-card shadow-sm mb-4">
-										 <div class="card-body text-center">
-											 <img src="assets/documents/imgs/NicolasMeseguer.webp" class="rounded-circle mb-3 profilepicture" alt="Nicolas Meseguer profile picture">
-											 <h3 class="mb-2">Nicolás Meseguer</h3>
-											 <p class="mb-3 small text-muted">Ph.D. Computer Architecture Student<br>CTO at <a href="https://mowatave.com" class="profile-link" target="_blank">Mowatave</a></p>
-											 <div class="d-flex justify-content-center gap-2 flex-wrap mb-2">
-												 <a href="mailto:n.mesegueriborra@um.es" class="btn btn-outline-primary btn-sm rounded-pill px-3"><i class="fa-regular fa-envelope me-2"></i>Email</a>
-												 <a href="https://www.linkedin.com/in/nicolasmeseguer/" class="btn btn-outline-primary btn-sm rounded-pill px-3" target="_blank"><i class="fa-brands fa-linkedin me-2"></i>LinkedIn</a>
-												 <a href="https://github.com/NicolasMeseguer" class="btn btn-outline-primary btn-sm rounded-pill px-3" target="_blank"><i class="fab fa-github me-2"></i>GitHub</a>
-											 </div>
-										 </div>
-									 </div>
+																	 <div class="card profile-card shadow-sm mb-4">
+																		 <div class="card-body text-center">
+																			 <img src="assets/documents/imgs/palam.jpeg" class="rounded-circle mb-3 profilepicture" alt="Dr. Palaniappan Subramanian profile picture">
+																			 <h3 class="mb-2">Dr. Palaniappan Subramanian</h3>
+																			 <p class="mb-2 small text-muted">ORCID: <a href="http://orcid.org/0000-0003-1000-6994" target="_blank" class="profile-link">0000-0003-1000-6994</a><br>Researcher ID: B-1179-2012</p>
+																			 <p class="mb-2 small text-muted">Date of Birth: 8th February 1983, Devakottai, India</p>
+																			 <p class="mb-2 small text-muted">Telephone: <a href="tel:+420735715965" class="profile-link">+420 735 715 965</a><br>Email: <a href="mailto:palans@ntc.zcu.cz" class="profile-link">palans@ntc.zcu.cz</a></p>
+																		 </div>
+																	 </div>
 								 </div>
 
 				<!-- About Me -->
 				<div class="col-md-8 offset-md-1 mb-5 active" id="aboutmeContent">
 					<div class="container">
 						<div class="row language">
-							<p class="mt-2 justify" 
-								data-es="Nace en Murcia, España en 1997. En 2021 obtiene el grado de ingeniería informática por la Universidad Católica San Antonio de Murcia con mención honorífica a la excelencia académica. A continuación cursa el máster en la Universidad de Murcia obteniendo el título de máster en nuevas tecnologías en informática en el año 2022. Además, obtuvo una beca de iniciación a la investigación de la Universidad Católica San Antonio de Murcia con duración de 6 meses en el año 2021. En el año 2022 obtiene una beca de la Fundación Séneca para realizar la tesis doctoral en la Universidad de Murcia, donde participa en actividades docentes a partir del año 2023, ese mismo año funda Mowatave, una empresa de desarrollo software, desempeñando el rol de CTO y liderando el equipo técnico. Posee comunicaciones en congresos nacionales. Domina las lenguas español e inglés." 
-								data-en="Born in Murcia, Spain in 1997. In 2021 he obtained a degree in computer engineering from the Universidad Católica San Antonio de Murcia with honorable mention for academic excellence. He then studied a master's degree at the University of Murcia obtaining a master's degree in new technologies in computer science in 2022. In addition, he received a research initiation scholarship from the Universidad Católica San Antonio de Murcia for a period of six months in in 2021. In 2022 he obtained a scholarship from the Fundación Séneca to undertake a doctoral thesis at the University of Murcia, where he participates in teaching activities from 2023. That same year he founded Mowatave, a software development company, serving as the CTO and leading the technical team. He has presented at national conferences and is proficient in both Spanish and English.">
+							<!-- Updated About Me Section -->
+							<h2 class="mt-2">About Me</h2>
+							<p class="mt-2 justify">
+							Hi, I’m Palan, and I’m a chemist working with the chemistry of fuel cells and metal-air batteries in a research center. I’m originally from Karaikudi in the south of India, and now living in Pilsen, Czech Republic.
 							</p>
-							
-							<h4 id="researchinterestsH4" class="mt-2" 
-								data-es="Áreas de Investigación" 
-								data-en="Research Interests">
-							</h4>
-
-							<p class="mt-1"
-								data-es="Arquitectura de computadores, redes de interconexión y aceleradores de aprendizaje profundo (aceleradores a nivel de hardware), sin embargo mis estudios de doctorado se centran en arquitecturas de GPUs, concretamente en los nuevos componentes de las futuras generaciones de tarjetas gráficas de NVIDIA y AMD. Para ello actualmente estoy utilizando MGPUSim, un simulador a nivel de eventos para GPUs."
-								data-en="Computer architecture, interconnection networks and deep learning accelerators, however my PhD studies are focused on GPU architectures, specifically on the new components of the future generations of NVIDIA and AMD graphics cards. To this end I am currently using MGPUSim, a software event-based GPU simulator.">
+							<h4 class="mt-4">Experience</h4>
+							<p class="mt-1 justify">
+							I’m currently a Senior Researcher in the Renewable Energy section at New Technologies Research Centre (NTC) - University of West Bohemia, where I have a range of roles providing expertise on the chemistry of electrochemical energy storage and conversion device, as the sub-group leader for the fuel cell team in Advanced Materials department. I’ve been at NTC since 2021, after a 10-year stint in academia in Europe, Israel, and South Korea.
 							</p>
-
-							<h4 id="honors-and-awards" class="mt-2" data-es="Premios y Distinciones" data-en="Honors and Awards"></h4>
-
-							<ul class="mt-1">
-
-								<li class="abme-honors-bullet">
-									<strong>🥉 Telefónica Hack4Good 2024</strong>, <span data-es="con una plataforma para telemedicina integral con varios actores" data-en="with a comprehensive telemedicine platform with several stakeholders"></span> 
-									[<a href="./assets/documents/HackForGood2024NicolasMeseguer.pdf" class="link-dark" target="_blank">1</a>]
-									[<a href="https://www.ucam.edu/noticias/inteligencia-artificial-aplicada-salud-propuesta-ganadora-del-hackforgood-celebrado-ucam" class="link-dark" target="_blank">2</a>] 
-									- <span data-es="Mar, 2024" data-en="Mar, 2024"></span>
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong>Programa Séneca 2022</strong>, <span data-es="Formación de Personal Investigador en Universidades y Organismos Públicos de Investigación de la Región de Murcia" data-en="research contract at the University of Murcia"></span> 
-									[<a href="https://fseneca.es/tfs/fpi/ficha/8362" class="link-dark" target="_blank">1</a>]
-									[<a href="https://fseneca.es/web/convocatoria/642" class="link-dark" target="_blank">2</a>] 
-									- <span data-es="Dic, 2022" data-en="Dec, 2022"></span>
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong>🥈 Mercedes-Benz Talent Highway</strong>, <span data-es="con un modelo analítico de mercado predictivo" data-en="with a predictive analytical market model"></span> 
-									[<a href="./assets/documents/MercedesBenz2022NicolasMeseguer.pdf" class="link-dark" target="_blank">1</a>] 
-									[<a href="./assets/documents/imgs/honors_awards/NicolasMeseguerMercedes-Benz.jpg" class="link-dark" target="_blank">2</a>] 
-									- Nov, 2022
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong><span data-es="Beca Universitaria" data-en="University scholarship"></span></strong> <span data-es="para el máster" data-en="for the master's degree"></span> (M.S.)
-									[<a href="./assets/documents/NicolasMeseguerScholarship.pdf" class="link-dark" target="_blank">1</a>] 
-									- Nov, 2022
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong>🥇 Telefónica Hack4Good 2022</strong>, <span data-es="con una aplicación contra el desperdicio cero de alimentos" data-en="with an application against zero food waste"></span>
-									[<a href="./assets/documents/HackForGood2022NicolasMeseguer.pdf" class="link-dark" target="_blank">1</a>]
-									[<a href="https://www.ucam.edu/noticias/investigacion-salud-deporte-protagonistas-actividades-ucam" class="link-dark" target="_blank">2</a>]
-									[<a href="https://www.linkedin.com/posts/universidad-catolica-san-antonio-de-murcia_secyt22-investigaciaejn-salud-activity-6989572524854382592-zMr4" class="link-dark" target="_blank">3</a>] 
-									- Oct, 2022
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong><span data-es="Premio Extraordinario" data-en="Extraordinary Award"></span></strong>, <span data-es="por el mejor Expediente Académico en Ingeniería Informática" data-en="for the Best Computer Engineering Academic Record"></span> (B.S.)
-									[<a href="./assets/documents/imgs/honors_awards/NicolasMeseguerAward.jpg" class="link-dark" target="_blank">1</a>] 
-									- Jun, 2022
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong><span data-es="Beca de Iniciación a la Investigación" data-en="Research Initiation Scholarship"></span></strong> <span data-es="para jóvenes investigadores prometedores" data-en="for promising young researchers"></span>
-									[<a href="./assets/documents/NicolasMeseguerResearchGrant.pdf" class="link-dark" target="_blank">1</a>] 
-									- Feb, 2021
-								</li>
-
-								<li class="abme-honors-bullet mt-2">
-									<strong><span data-es="Beca Erasmus+" data-en="Erasmus+ Scholarship"></span></strong>, <span data-es="para unas prácticas europeas" data-en="for a european internship"></span>
-									[<a href="./assets/documents/imgs/honors_awards/NicolasMeseguerGermany.png" class="link-dark" target="_blank">1</a>] 
-									- Mar, 2018
-								</li>
+							<h4 class="mt-4">Education</h4>
+							<ul class="mt-2">
+								<li>2011: PhD in Chemistry (Highly commended), Alagappa University, Karaikudi, India<br>Thesis: Mechanochemical Synthesis of Conducting Organic Polymers</li>
+								<li>2005: Master’s degree in Chemistry, Madurai Kamaraj University, Madurai, India<br>Thesis: Electrochemical Deoxygenation of Triphenylphosphine Oxide</li>
+								<li>2003: Bachelor’s degree in Chemistry, Madurai Kamaraj University, Madurai, India</li>
 							</ul>
-
-							<h4 id="hobbiesH4" class="mt-2">Hobbies</h4>
-
+							<h4 class="mt-4">Background & Expertise</h4>
+							<p class="mt-1 justify">
+							My professional background is in chemistry and electrochemistry. I obtained an MSc degree in 2005 and PhD in 2011 from the Alagappa University, and worked as a researcher at the IEMN-FR, Ariel University-IL and KU Leuven-BE. I have worked on material development for fuel cells, supercapacitors, metal-air batteries for over 15 years, since my PhD research project in 2006. Since then I have specialised in the electrochemistry of fuel cells, electrolysers and metal-air batteries.
+							</p>
+							<h4 class="mt-4">Hobbies</h4>
+							<p class="mt-1 justify">
+							I have strong interests in vedic astrology, birth chart analysis, stock market trading, and visits to various new places to enjoy the beauty of nature (riverfronts, forests and landscape).
+							</p>
+							<h4 class="mt-4">Publications</h4>
 							<div class="container">
-								<div class="row mt-3">
-									<div class="thumbnail col-md-3">
-										<img class="rounded mx-auto d-block img-fluid" src="/assets/documents/imgs/hobbies/NicolasMeseguerProgramming.webp" alt="Programming and Math">
-									</div>
-									<div class="col-md-9" id="hobbie1">
-										<b 
-											data-es="Programación + Mates" 
-											data-en="Programming + Math">
-										</b>
-
-										<br />
-										<p class="mt-2 d-inline justify"
-											data-es="Desde pequeño sentí curiosidad por saber cómo se creaban los escenarios (visualmente) de los diferentes videojuegos; cómo los motores gráficos conseguían lo que yo consideraba en aquella época unos 'gráficos increíbles'. Motivado por esto y por mi pasión por la programación, he incluido los ejercicios de"
-											data-en="Since I was a child I was curious to know how the scenarios were created (visually) in different videogames; how the graphics engines managed to achieve, what I considered at that time to be, 'unbelievable graphics'. Motivated by this and by my passion for programming, I've included the exercises in">
-										</p>
-
-										<a href="https://projecteuler.net/" class="link-dark" target="_blank">Project Euler</a> <span data-es="en mi" data-en="into my"></span> <a href="https://github.com/NicolasMeseguer/Toolbox" class="link-dark" target="_blank"><span data-es="propio repositorio de código abierto" data-en="own open-source repository"></span></a>.
-
-									</div>
-								</div>
-
-								<div class="row mt-5">
-									<div class="thumbnail col-md-3">
-										<img class="rounded mx-auto d-block img-fluid" src="/assets/documents/imgs/hobbies/NicolasMeseguerTailandia.webp" alt="Travelling">
-									</div>
-									<div class="col-md-9" id="hobbie2">
-										<b 
-											data-es="Viajar" 
-											data-en="Travelling">
-										</b>
-
-										<br />
-										<p class="mt-2 d-inline justify"
-											data-es="Decidí viajar a Alemania para hacer unas prácticas el mismo año que terminé el grado superior. Desde entonces, me he propuesto ir a un lugar nuevo al menos una vez al año. He recorrido Italia, conducido en moto a través de Tailandia (sin embargo, la pandemia me lo ha puesto bastante dificil estos últimos años)."
-											data-en="I opted to move to Germany for an internship the same year I finished my undergraduate degree (HNC). Since then, I've made it a goal to go to a new location at least once a year. I've been across Italy and Thailand since then (although the pandemic has hampered my progress quite a bit this last years).">
-										</p>
-
-									</div>
-								</div>
-								
-								<div class="row mt-5">
-									<div class="thumbnail col-md-3">
-										<img class="rounded mx-auto d-block img-fluid" src="/assets/documents/imgs/hobbies/NicolasMeseguerYouTube.webp" alt="Content Creator on YouTube">
-									</div>
-									<div class="col-md-9" id="hobbie3">
-										<b 
-											data-es="Filmaker (casi nunca)" 
-											data-en="Video Creator (rarely)">
-										</b>
-
-										<br />
-										<p class="mt-2 d-inline justify"
-											data-es="Me gusta compartir mis experiencias en el campo de la tecnología. Llevo viendo vídeos en internet desde que tengo uso de razón, así que en 2018 decidí crearme un canal de"
-											data-en="I enjoy sharing my experiences, particularly in the field of technology. I've been watching videos on the internet for as long as I can remember, so in 2018 I decided to start a">
-										</p>
-
-										<a href="https://www.youtube.com/c/NicolasMeseguer" class="link-dark" target="_blank">YouTube</a><span data-es="." data-en=""></span>
-
-										<span
-											data-es="Algunos vídeos tienen más de 150 mil visitas a día de hoy... ¿No es increíble? Si tienes suerte puedes encontrarme por"
-											data-en="channel. Some videos have already received over 150 thousand views as of today... Isn't it amazing? If lucky enough you can find me at">
-										</span>
-
-										<a href="https://www.twitch.tv/nicolasmeseguerr" class="link-dark" target="_blank">Twitch</a>
-										
-										</br>
-
-										<span class="lucida-console small">(<i class="fa-light fa-share-from-square"></i> <a href="https://www.youtube.com/@NicolasMeseguerArchive" class="link-dark" target="_blank">YouTube Archive)</a>.</span>
-
-									</div>
+								<div class="row mt-2">
+									<h5>Selected Publications (2025-2024)</h5>
+									<ul>
+										<li>2025: One step laser-induced synthesis of a bimetallic iron–cobalt sulfide for efficient solar light driven, Fenton-like and electrochemical catalysis. <i>RSC Advances, 15, 26371, 2025.</i></li>
+										<li>2025: Unveiling binder-free hierarchically interlinked MoS2 nanosheet integrated Co9S8 nanosheet in a nanohybrid architecture framework coupled with in-situ anion exchange engineering from its corresponding oxygen counterparts for advanced supercapacitor. <i>Journal of Alloys and Compounds, 182283, 2025.</i></li>
+										<li>2025: Designing a high-performance electrode leveraging dual-material synergy in a nanoarchitectural framework: Progressing towards supercapacitors with enhanced energy density. <i>Journal of Alloys and Compounds, 182267, 2025.</i></li>
+										<li>2025: Multiphase PtPdSb nanoparticles for direct electrochemical energy conversion using hydrogen-rich dimethyl ether. <i>Journal of Power Sources, 632, 236301, 2025.</i></li>
+										<li>2025: Rational construction of porous cobalt nanoparticle integrated nitrogen doped hollow carbon nanostructures for peptide agonist exendin-4 biosensing. <i>Biosensors and Bioelectronics, 270, 116938, 2025.</i></li>
+										<li>2025: MOF-derived nickel cobaltite: a pathway to enhanced supercapacitor performance. <i>Journal of Materials Chemistry A, 13, 5961, 2025.</i></li>
+										<li>2024: Metal nanoparticles based electrochemical biosensing of neutrophil gelatinase-associated lipocalin biomarker for monitoring acute kidney injury. <i>Microchemical Journal 203, 110890, 2024.</i></li>
+										<li>2024: Voltammetric nano-molar range quantification of agrochemical pesticide using needle-like strontium pyrophosphate embedded on sulfur doped graphitic carbon nitride electrocatalyst. <i>Food Chemistry 437, 137874, 2024.</i></li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -507,94 +407,521 @@
 
 
 				<!-- Publications -->
-				<div class="col-md-8 offset-md-1 mb-5" id="publicationsContent">
-					<div class="container">
-
-						<!-- Each new year -->
-						<div class="row mt-3">
-							<h2 class="pub-year-h2">2023</h2>
-
-							<!-- Each new publication inside the given year -->
-							<div class="pub-block">
-								<!-- Title -->
-								<div class="lucida-console h5">CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures</div>
-								<!-- Authors -->
-								<div class="pub-authors mt-1"><span class="pub-author">Nicolás Meseguer-Iborra</span>, José L. Abellán, Manuel E. Acacio</div>
-								<!-- Place -->
-								<div class="pub-congress">19th International Summer School on Advanced Computer Architecture and Compilation for High-performance Embedded Systems, Fiuggi (Italy), July 2023.</div>
-								<!-- Links -->
-								<div class="mt-1">
-									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Poster.pdf" target="_blank" class="link-dark ">Poster</a> </span>
-									<span class="pub-force-margin-left"> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2023CPU-PCGCN-Abstract.pdf" target="_blank" class="link-dark ">Abstract</a> </span>
-									<!-- This <a> with id citation, will automatically copy to the clipboard the bibtex citation -->
-									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
-								</div>
-								<!-- Citation -->
-								<div class="d-none">
-@article{2023cpupcgcn,
-	author = {Meseguer-Iborra, Nicolas and Abellán, José L. and Acacio, Manuel E.},
-	year = {2023},
-	month = {July},
-	title = {CPU-PCGCN: Efficient Processing of Convolutional Graph Networks on CPU Architectures},
-	journal = {Advanced Computer Architecture and Compilation for High-performance Embedded Systems},
-	volume = {19},
-	pages = {5--8},
-	isbn = {978-90-7842-704-9}
-}</div>
-							</div>
+				<div class="col-md-8 offset-md-1 mb-5 active" id="publicationsContent">
+				<div class="container">
+					<div class="row mt-2 language">
+						<h2 
+							data-es="Publicaciones"
+							data-en="Publications"></h2>
+						<p class="mt-1 justify"
+							data-es="
+							Mi investigación se centra en el desarrollo de materiales para pilas de combustible, baterías de metal-aire y supercondensadores. He publicado más de 50 artículos en revistas revisadas por pares, con más de 1500 citas y un índice h de 22 (Google Scholar, junio de 2024). 
+							"
+							data-en="
+							My research focuses on the development of materials for fuel cells, metal-air batteries and supercapacitors. I have published over 50 articles in peer-reviewed journals, with over 1500 citations and an h-index of 22 (Google Scholar, June 2024). 
+							">
+						</p>
+						<p class="mt-1 justify"
+							data-es="
+							A continuación se muestra una selección de mis publicaciones más recientes (2025-2024). 
+							Para ver la lista completa de mis publicaciones, visite mi perfil de Google Scholar o ResearchGate.
+							"
+							data-en="
+							Below is a selection of my most recent publications (2025-2024). 
+							To see the full list of my publications, please visit my Google Scholar or ResearchGate profile.
+							">
+						</p>
+					<!-- 2025 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2025</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">One step laser-induced synthesis of a bimetallic iron–cobalt sulfide for efficient solar light driven, Fenton-like and electrochemical catalysis</div>
+							<div class="pub-authors mt-1">V. Vavruňková, T. Křenek, L.Vála, P. Subramanian, S. A. Khan, J. Minár, M. Koštejn, R. Medlín, P. Mikysek, V. Jandová</div>
+							<div class="pub-congress">RSC Advances, 15, 26371, 2025.</div>
 						</div>
-
-						<div class="row mt-3">
-							<h2 class="pub-year-h2">2022</h2>
-
-							<div class="pub-block">
-								<div class="lucida-console h5">CPU-PCGCN: Procesamiento Eficiente de Redes Convolucionales de Grafos en Arquitecturas CPU</div>
-								<div class="pub-authors mt-1"><span class="pub-author">Nicolás Meseguer-Iborra</span>, Francisco Muñoz-Martínez, José L. Abellán, Manuel E. Acacio</div>
-								<div class="pub-congress">XXXII Jornadas de Paralelismo, Alicante (Spain), September 2022.</div>
-								<div class="mt-1">
-									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2022CPU-PCGCN.pdf" target="_blank" class="link-dark ">PDF</a> </span>
-									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
-								</div>
-								<div class="d-none">
-@article{2022cpupcgcn,
-	author = {Meseguer-Iborra, Nicolas and Muñoz-Martínez, Francisco and Abellán, José L. and Acacio, Manuel E.},
-	year = {2022},
-	month = {June},
-	title = {CPU-PCGCN: Procesamiento Eficiente de Redes Convolucionales de Grafos en Arquitecturas CPU},
-	journal = {Avances en Arquitectura y Tecnología de Computadores},
-	volume = {32},
-	pages = {445--453},
-	isbn = {978-84-1302-185-0}
-}</div>
-							</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Unveiling binder-free hierarchically interlinked MoS2 nanosheet integrated Co9S8 nanosheet in a nanohybrid architecture framework coupled with in-situ anion exchange engineering from its corresponding oxygen counterparts for advanced supercapacitor</div>
+							<div class="pub-authors mt-1">P. Sivakumar, C. J. Raj, P. Subramanian, A. D. Savariraj, R. Manikandan, H. Jung</div>
+							<div class="pub-congress">Journal of Alloys and Compounds, 182283, 2025.</div>
 						</div>
-
-						<div class="row mt-3">
-							<h2 class="pub-year-h2">2021</h2>
-
-							<div class="pub-block">
-								<div class="lucida-console h5">Evaluación de un Sistema de Recomendación en un Acelerador Híbrido</div>
-								<div class="pub-authors mt-1"><span class="pub-author">Nicolás Meseguer-Iborra</span>, Francisco Muñoz-Martínez, Manuel E. Acacio, José L. Abellán</div>
-								<div class="pub-congress">XXXI Jornadas de Paralelismo, Málaga (Spain), September 2021.</div>
-								<div class="mt-1">
-									<span> <i class="far fa-file-pdf"></i> <a href="/assets/documents/publications/2021DLRM.pdf" target="_blank" class="link-dark">PDF</a> </span>
-									<span class="pub-force-margin-left"> <i class="fas fa-quote-left"></i> <a href="#" id="citation" class="link-dark">BibTeX</a> </span>
-								</div>
-								<div class="d-none">
-@article{2021dlrm,
-	author = {Meseguer-Iborra, Nicolas and Muñoz-Martínez, Francisco and Acacio, Manuel E. and Abellán, José L.},
-	year = {2021},
-	month = {June},
-	title = {Evaluación de un Sistema de Recomendación en un Acelerador Híbrido},
-	journal = {Avances en Arquitectura y Tecnología de Computadores},
-	volume = {31},
-	pages = {107--115},
-	isbn = {978-84-09-32487-3}
-}</div>
-							</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Designing a high-performance electrode leveraging dual-material synergy in a nanoarchitectural framework: Progressing towards supercapacitors with enhanced energy density</div>
+							<div class="pub-authors mt-1">P. Sivakumar, C. J. Raj, P. Subramanian, A. D. Savariraj, R. Manikandan, H. Jung</div>
+							<div class="pub-congress">Journal of Alloys and Compounds, 182267, 2025.</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Multiphase PtPdSb nanoparticles for direct electrochemical energy conversion using hydrogen-rich dimethyl ether</div>
+							<div class="pub-authors mt-1">M. G. Gebru, I. Pitussi, H. Teller, A. M. Chathoth, H. Kornweitz, R. Medlin, P. Bělský, P. Subramanian, A. Schechter</div>
+							<div class="pub-congress">Journal of Power Sources, 632, 236301, 2025.</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Rational construction of porous cobalt nanoparticle integrated nitrogen doped hollow carbon nanostructures for peptide agonist exendin-4 biosensing</div>
+							<div class="pub-authors mt-1">W. Zhang, B. Natarajan, P. Kannan, R. Medlín, L. C. Nicolai, M. Procházka, J. Minar, P. Subramanian</div>
+							<div class="pub-congress">Biosensors and Bioelectronics, 270, 116938, 2025.</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">MOF-derived nickel cobaltite: a pathway to enhanced supercapacitor performance</div>
+							<div class="pub-authors mt-1">P. Sivakumar, J. Balamurugan, C J. Raj, P. Subramanian, A. D. Savariraj, R. Manikandan, H. Jung</div>
+							<div class="pub-congress">Journal of Materials Chemistry A, 13, 5961, 2025.</div>
 						</div>
 					</div>
+					<!-- 2024 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2024</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Metal nanoparticles based electrochemical biosensing of neutrophil gelatinase-associated lipocalin biomarker for monitoring acute kidney injury</div>
+							<div class="pub-authors mt-1">B. Natarajan, P. Kannan, P. Subramanian, G. Maduraiveeran</div>
+							<div class="pub-congress">Microchemical Journal 203, 110890, 2024.</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Voltammetric nano-molar range quantification of agrochemical pesticide using needle-like strontium pyrophosphate embedded on sulfur doped graphitic carbon nitride electrocatalyst</div>
+							<div class="pub-authors mt-1">C. Bhuvaneswari, R. Shanmugam, A. Elangovan, P. S. Kumar, C. Sharmila, K. Sudha, G. Arivazhagan, P. Subramanian</div>
+							<div class="pub-congress">Food Chemistry 437, 137874, 2024.</div>
+						</div>
+					</div>
+					<!-- 2023 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2023</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Grain boundaries derived from layered Fe/Co di-hydroxide porous prickly-like nanosheets as potential electrocatalyst for efficient electrooxidation of hydrazine</div>
+							<div class="pub-authors mt-1">C. Sun, L. Lei, P. Kannan, P. Subramanian, S. Ji</div>
+							<div class="pub-congress">Applied Surface Science, 639, 158265, 2023.</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Metal-organic framework-derived cation regulation of metal sulfides for enhanced oxygen evolution activity</div>
+							<div class="pub-authors mt-1">K. Wan, J. Luo, W. Liu, T. Zhang, J. Arbiol, X. Zhang, P. Subramanian, Z. Fu, J. Fransaer</div>
+							<div class="pub-congress">Chinese Journal of Catalysis, 54, 290, 2023.</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Chemical-Dealloying-Derived PtPdPb-Based Multimetallic Nanoparticles: Dimethyl Ether Electrocatalysis and Fuel Cell Application</div>
+							<div class="pub-authors mt-1">M. G. Gebru, P. Subramanian, P. Bělský, R. S. Yadav, Itay Pitussi, S. Sasi, R. Medlín, J.Minar, P. Švec, H. Kornweitz, A. Schechter</div>
+							<div class="pub-congress">ACS Appl. Mater. Interfaces, 15, 56930, 2023.</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Harnessing dimethyl ether and methyl formate fuels for direct electrochemical energy conversion</div>
+							<div class="pub-authors mt-1">M. G. Gebru, R. S. Yadav, H. Teller, H. Kornweitz, P.Subramanian*, A. Schechter*</div>
+							<div class="pub-congress">Journal of Energy Chemistry, 83, 454, 2023.</div>
+						</div>
+					</div>
+					<!-- 2022 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2022</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Nonthermal Plasma‐Modified Carbon‐Carrying Sn‐Based Ternary Nanocatalyst for High‐Performance Direct Dimethyl Ether Fuel Cells</div>
+							<div class="pub-authors mt-1">M.G. Gebru, H. Teller, P. Subramanian*, A Schechter</div>
+							<div class="pub-congress">Energy Technology, 2200835, 2022.</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Ni2P Nanoparticle-Inserted Porous Layered NiO Hetero-Structured Nanosheets as a Durable Catalyst for the Electro-Oxidation of Urea</div>
+							<div class="pub-authors mt-1">K. Ma, H. Wang, P. Kannan, P. Subramanian*</div>
+							<div class="pub-congress">Nanomaterials, 20, 3633 (2022).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Sn-based Atokite Alloy Nanocatalyst for High-Power Dimethyl Ether Fueled Low-Temperature Polymer Electrolyte Fuel Cell</div>
+							<div class="pub-authors mt-1">D. Kashyap, H. Teller, P. Subramanian, P. Bělský, M.G. Gebrua, I.Pitussi, R. S. Yadav, H. Kornweitz, A. Schechter</div>
+							<div class="pub-congress">J. Power Sources, 544, 21882 (2022).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Critical Role of Phosphorus in Hollow Structures Cobalt-Based Phosphides as Bifunctional Catalysts for Water Splitting</div>
+							<div class="pub-authors mt-1">W. Zhang, N. Han, J. Luo, X. Han, S. Feng, W. Guo, S. Xie, Z. Zhou, P. Subramanian, K. Wan, J. Arbiol, C. Zhang, S. Liu, M. Xu, X. Zhang, J. Fransaer</div>
+							<div class="pub-congress">Small, 18, 2103561(2022).</div>
+						</div>
+					</div>
+					<!-- 2021 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2021</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Co Nanoparticle-Encapsulated Nitrogen-Doped Carbon Nanotubes as an Efficient and Robust Catalyst for Electro-Oxidation of Hydrazine</div>
+							<div class="pub-authors mt-1">H. Wang, Q. Dong, L.Lei, S. Ji, P. Kannan, P. Subramanian, A.P. Yadav</div>
+							<div class="pub-congress">Nanomaterials, 11, 2857, (2021).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Sulfur-modified nickel selenide as an efficient electrocatalyst for the oxygen evolution reaction</div>
+							<div class="pub-authors mt-1">K. Wan, J. Luo, X. Zhang, P. Subramanian, J. Fransaer</div>
+							<div class="pub-congress">J. Energy Chem, 62, 198 (2021).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Co, Fe-ions intercalated Ni(OH)2 network-like nanosheet arrays as highly efficient non-noble catalyst for electro-oxidation of urea</div>
+							<div class="pub-authors mt-1">H. Wanga, L.Lu, P. Subramanian, S. Ji, P. Kannan</div>
+							<div class="pub-congress">Int. J. Hydrogen Energy, 46, 34318 (2021).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Rational construction of hierarchical Ni (OH)2-NiS in-plane edge hybrid nanosheet structures on the carbon cloth as a robust catalyst for electro-oxidation of urea</div>
+							<div class="pub-authors mt-1">H. Wang, L. Zhang, H. Jiang, P. Kannan, R. Wang, P. Subramanian, S Ji</div>
+							<div class="pub-congress">J. Alloys Compd, 870, 159486 (2021).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">α‐Co(OH)2 Thin‐Layered Cactus‐Like Nanostructures Wrapped Ni3S2 Nanowires: A Robust and Potential Catalyst for Electro‐oxidation of Hydrazine</div>
+							<div class="pub-authors mt-1">Y. Xie, Z. Wang, H. Wang, L. Lu, P. Subramanian, S. Ji, P. Kannan</div>
+							<div class="pub-congress">ChemElectroChem, 8, 937 (2021).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">MnOOH nanoparticles integrated nitrogen doped porous nanosheet-like carbon network as a non-noble catalyst for electro-oxidation of sodium borohydride</div>
+							<div class="pub-authors mt-1">H. Wang, J, Ding, P. Kannan, P. Subramanian, S. Ji</div>
+							<div class="pub-congress">Int. J. Hydrogen Energy, 46, 9380 (2021).</div>
+						</div>
+					</div>
+					<!-- 2020 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2020</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Reduced graphene oxide-based field effect transistors for the detection of E7 protein of human papillomavirus in saliva</div>
+							<div class="pub-authors mt-1">P. Aspermair, V. Mishyn, J. Bintinger, H. Happy, K. Bagga, P. Subramanian, W. Knoll, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Anal. Bioanal. Chem. 413, 779 (2021).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Nitrogen-doped mesoporous carbon nanosheet network entrapped nickel nanoparticles as an efficient catalyst for electro-oxidation of glycerol</div>
+							<div class="pub-authors mt-1">H. Wang, J. Ding, P. Kannan, P. Subramanian, S. Ji</div>
+							<div class="pub-congress">Int. J. Hydrogen Energy, 45, 28821 (2020).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Pd-Decorated Tungsten as Pt-Free Bimetallic Catalysts for Hydrogen Oxidation Reaction in Alkaline Electrolyte</div>
+							<div class="pub-authors mt-1">A.C. Arulrajan, P. Subramanian, R.K. Singh, A. Schechter</div>
+							<div class="pub-congress">Isr. J. Chem., 60, 563 (2020).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Electrochemical Oxidation of Glycine by Bimetallic Nickel‐Manganese Oxide Catalysts</div>
+							<div class="pub-authors mt-1">R. Mohan, A. Modak , P. Subramanian , R. Cahan, P. Sivakumar, A. Schechter, A. Gedanken</div>
+							<div class="pub-congress">ChemElectroChem, 7, 561 (2020).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Enhanced electrocatalytic hydrogen evolution on a plasmonic electrode: the importance of the Ti/TiO2 adhesion layer</div>
+							<div class="pub-authors mt-1">L. Pang, A. Barras, V. Mishyn, G. Sandu, S. Melinte, P. Subramanian, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">J. Mater. Chem. A, 8, 10395 (2020).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Plasmon-enhanced electrocatalytic oxygen reduction in alkaline media on gold nanohole electrodes</div>
+							<div class="pub-authors mt-1">T.N.Saada, A.G.M.Silva, P. Subramanian, L. Pang, N. Adnane, B. D-Rouhani, V. Mishyn, D. Meziane, S. Melinte, G. Sandu, F. Dumeignil, S. Paul, R. Wojcieszak, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">J. Mater. Chem. A, 8, 13980 (2020).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Electrochemical deposition of metal-organic frameworks and their applications (Review)</div>
+							<div class="pub-authors mt-1">X. Zhang, K. Wan, P. Subramanian, M-W. Xu, J. Luo, J. Fransaer</div>
+							<div class="pub-congress">J. Mater. Chem. A, 8, 7569 (2020).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">MnO2 cacti-like nanostructured platform powers the enhanced electrochemical immunobiosensing of cortisol</div>
+							<div class="pub-authors mt-1">Q. Zhou, P. Kannan, B. Natarajan, T. Maiyalagan, P. Subramanian, Z. Jiang, S. Mao</div>
+							<div class="pub-congress">Sens. Actuators, B, 317,128134 (2020).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">In-situ formation of Ni (oxy)hydroxide on Ni foam as an efficient electrocatalyst for oxygen evolution reaction</div>
+							<div class="pub-authors mt-1">K.Wan, J.Luo, X. Zhang, P. Subramanian, J. Fransaer</div>
+							<div class="pub-congress">Int. J. Hydrogen Energy, 45, 8490 (2020).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Nickel-Phosphate Pompon Flowers Nanostructured Network Enables the Sensitive Detection of MicroRNA</div>
+							<div class="pub-authors mt-1">P. Kannan, T. Maiyalagan, B. Lin, W. Lei, C. Jie, L. Guo, Z. Jiang, S. Mao, P. Subramanian</div>
+							<div class="pub-congress">Talanta, 209, 120511 (2020).</div>
+						</div>
+					</div>
+					<!-- 2019 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2019</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Grain Boundaries of Co(OH)2-Ni-Cu Nanosheets on the Cotton Fabric Substrate For Stable and Efficient Electro-Oxidation of Hydrazine</div>
+							<div class="pub-authors mt-1">H. Jiang, Z. Wang, P. Kannan, H. Wang, R.Wang, P. Subramanian, S. Ji</div>
+							<div class="pub-congress">Int. J. Hydrogen Energy, 44, 24591 (2019).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Template-Directed Bifunctional NiSx/Nitrogen-Doped Mesoporous Carbon Electrocatalyst for Rechargeable Zn-Air Batteries</div>
+							<div class="pub-authors mt-1">K. Wan, J. Luo, X. Zhang, C. Zhou, J. W. Seo, P. Subramanian, J-W. Yan, J. Fransaer</div>
+							<div class="pub-congress">J. Mater. Chem. A, 7,19889 (2019).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Catalytic Current Mapping of Oxygen Reduction on Isolated Pt Particles by Atomic Force Microscopy-Scanning Electrochemical Microscopy</div>
+							<div class="pub-authors mt-1">S. Kolagatla, P. Subramanian, A. Schechter</div>
+							<div class="pub-congress">Appl. Catal., B, 256, 117843 (2019).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Simultaneous Mapping of Oxygen Reduction Activity and Hydrogen Peroxide Generation on Electrocatalytic Surfaces</div>
+							<div class="pub-authors mt-1">S Kolagatla, P. Subramanian, A. Schechter</div>
+							<div class="pub-congress">ChemSusChem, 12, 2708 (2019).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Ternary Nickel Cobalt Manganese Spinel Oxide Nanoparticles as Heterogeneous Electrocatalysts for Oxygen Evolution and Oxygen Reduction Reaction</div>
+							<div class="pub-authors mt-1">P. Sivakumar*, P. Subramanian*, T. Maiyalagan, A. Gedanken, A. Schechter</div>
+							<div class="pub-congress">Mater. Chem. Phys., 229, 190 (2019).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Cobalt Oxide Porous Nanocubes-Based Electrochemical Immunobiosensing of Hepatitis B Virus DNA in Blood Serum and Urine Samples</div>
+							<div class="pub-authors mt-1">P. Kannan, P. Subramanian, T. Maiyalagan, Z. Jiang</div>
+							<div class="pub-congress">Anal. Chem., 91, 5824 (2019).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Hierarchical Core-Shell Structured Ni3S2/NiMoO4 Nanowires: A High-Performance and Reusable Electrochemical Sensor for Glucose Detection</div>
+							<div class="pub-authors mt-1">P. Kannan, F. Chen, H. Jiang, H Wang, R. Wang, P. Subramanian, S. Ji</div>
+							<div class="pub-congress">Analyst, 144, 4925(2019).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Plasmon-Induced Electrocatalysis With Multi-Component Nanostructures (Review - Open Access)</div>
+							<div class="pub-authors mt-1">P. Subramanian, D. Meziane, R. Wojcieszak, F. Dumeignil, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Materials, 12, 43 (2019).</div>
+						</div>
+					</div>
+					<!-- 2018 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2018</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Nucleic Aptamer Modified Porous Reduced Graphene Oxide/MoS2 Based Electrodes for Viral Detection: Application to Human Papillomavirus (HPV)</div>
+							<div class="pub-authors mt-1">F. Chekin, K. Bagga, P. Subramanian, R. Jijie, S.K. Singh, S. Kurungot, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Sens. Actuators, B, 262, 991 (2018).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Nanoscale Mapping of Catalytic Hotspots on Fe, N-Modified HOPG by Scanning Electrochemical Microscopy-Atomic Force Microscopy</div>
+							<div class="pub-authors mt-1">S. Kolagatla, P. Subramanian, A. Schechter</div>
+							<div class="pub-congress">Nanoscale, 10, 6962 (2018).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Titanium Hydride - A Stable Support For Pt Catalysts in Oxygen Reduction Reaction</div>
+							<div class="pub-authors mt-1">O. Krichevski, O, H. Teller, P. Subramanian, S. Kolagatla, A. Schechter</div>
+							<div class="pub-congress">J. Solid State Electrochem., 22, 2049 (2018).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Improved Conductivity and Antibacterial Activity of Poly(2-Aminothiophenol)-Silver Nanocomposite Against Human Pathogens</div>
+							<div class="pub-authors mt-1">P.Boomi, J.A, Raj, P. Subramanian, G.Poorani, S.Selvam, H.Gurumallesh Prabu, P.Manisankar, J.Jeyakanthan, V.K.Langeswaran</div>
+							<div class="pub-congress">J. Photochem. Photobiol., B,178, 323 (2018).</div>
+						</div>
+					</div>
+					<!-- 2017 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2017</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Electrochemical Oxygen Reduction Activity of Metal Embedded Nitrogen Doped Carbon Nanostructures Derived From Pyrolysis of Nitrogen-Rich Guanidinium Salt</div>
+							<div class="pub-authors mt-1">P. Sivakumar*, P. Subramanian*, T. Maiyalagan, N. Perkas, A. Gedanken, A. Schechter</div>
+							<div class="pub-congress">J. Electrochem. Soc., 164, F781 (2017).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Unraveling the Oxygen Reduction Sites in Graphitic Carbon Co-N-C Type Electrocatalysts Prepared from Single Precursor Pyrolysis</div>
+							<div class="pub-authors mt-1">P. Subramanian, R. Mohan, A. Schechter</div>
+							<div class="pub-congress">ChemCatChem, 9,1969 (2017).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Enhanced Activity of Urea Oxidation on Nickel Deposited Tin Dendrites Catalyst</div>
+							<div class="pub-authors mt-1">R. K. Singh*, P. Subramanian*, A. Schechter</div>
+							<div class="pub-congress">ChemElectroChem, 4, 1037 (2017).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Atomic Force Microscopic And Raman Investigation of Boron-Doped Diamond Nanowire Electrodes and their Activity toward Oxygen Reduction</div>
+							<div class="pub-authors mt-1">P. Subramanian, S. Kolagatla, S. Szunerits, Y. Coffinier, W. S. Yeap, K. Haenen, R. Boukherroub, A. Schechter</div>
+							<div class="pub-congress">J. Phys. Chem. C, 121, 3397 (2017).</div>
+						</div>
+					</div>
+					<!-- 2016 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2016</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Polyoxometalates Entrapped in Sol-Gel Matrices for Reducing Electron Exchange Column Applications</div>
+							<div class="pub-authors mt-1">N. Singh, Y. Albo, D. Shamir, A. Burg, P. Subramanian, G. Goobes, D. Meyerstein</div>
+							<div class="pub-congress">J. Coord. Chem., 69, 3449 (2016).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Green Synthesis of Reduced Graphene Oxide-Silver Nanoparticles using Environmentally Friendly L-Arginine for H2O2 Detection</div>
+							<div class="pub-authors mt-1">A. A. Nafiey, P. Subramanian, A. Addad, B. Sieber, S. Szunerits, R. Boukherroub</div>
+							<div class="pub-congress">ECS J. Solid State Sci. Technol., 5, M3060 (2016).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Insights on the Electrochemical Atomic Force Microscopic Catalytic Oxygen Reduction on Tip Guided Platinum Particle Deposits</div>
+							<div class="pub-authors mt-1">S. Kolagatla, P. Subramanian, A. Schechter</div>
+							<div class="pub-congress">Electrochim. Acta, 217, 100 (2016).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Highly Sensitive Electrochemical Interface for Lysozyme Sensing</div>
+							<div class="pub-authors mt-1">Q. Wang, P. Subramanian, A. Schechter, E. Teblum, R. Yemini, G. D. Nessim, A. Vasilescu, M. Li, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">ACS Appl. Mater. Interfaces, 8, 9600 (2016).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Exceptionally Active and Stable Spinel Nickel Manganese Oxide Electrocatalysts for Urea Oxidation Reaction</div>
+							<div class="pub-authors mt-1">P.Sivakumar*, P. Subramanian*, A. Schechter, A. Gedanken</div>
+							<div class="pub-congress">ACS Appl. Mater. Interfaces, 8, 12176 (2016).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Electrochemical Oxygen Reduction Activity of Cobalt-Nitrogen-Carbon Composite Catalyst Prepared by Single Precursor Pyrolysis under Autogenic Pressure</div>
+							<div class="pub-authors mt-1">P. Subramanian, A. Schechter</div>
+							<div class="pub-congress">J. Electrochem. Soc.,163, F428 (2016).</div>
+						</div>
+					</div>
+					<!-- 2015 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2015</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">The Synthesis of ß-Sn Nano Structure Electrodes for Methanol Electro-Oxidation</div>
+							<div class="pub-authors mt-1">O. Krichevski, H. Teller, P. Subramanian, A. Schechter</div>
+							<div class="pub-congress">Electrocatalysis, 6, 554 (2015).</div>
+						</div>
+					</div>
+					<!-- 2014 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2014</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Electrocatalytic Activity of Nitrogen Plasma Treated Vertically Aligned Carbon Nanotube Carpets towards Oxygen Reduction Reaction</div>
+							<div class="pub-authors mt-1">P. Subramanian, A. Cohen, E. Teblum, G. D. Nessim, E. Bormasheko, A. Schechter</div>
+							<div class="pub-congress">Electrochem. Commun., 49, 42 (2014).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Diamond Nanowires Modified with Poly[3-(Pyrrolyl) Carboxylic Acid] for the Immobilization of Histidine-Tagged Peptides</div>
+							<div class="pub-authors mt-1">P. Subramanian, I. Mazurenko, V. Zaitsev, Y. Coffinier, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Analyst, 139, 4343 (2014).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Carbohydrate-Lectin Interaction on Graphene-Coated Surface Plasmon Resonance (SPR) Interfaces</div>
+							<div class="pub-authors mt-1">A. Penezic, G. Deokar, D. Vignaud, E. Pichonat, H. Happy, P. Subramanian, B. Gašparovi, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Plasmonics, 9, 677 (2014).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Preparation of Reduced Graphene Oxide-Ni(OH)2 Composites by Electrophoretic Deposition: Application for Non-Enzymatic Glucose Sensing</div>
+							<div class="pub-authors mt-1">P. Subramanian, J. Niedziolka-Jonsson, A. Lesniewski, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">J. Mater. Chem., A, 2, 5525 (2014).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Graphene-Coated Surface Plasmon Resonance Interfaces for Studying the Interactions between Cells and Surfaces</div>
+							<div class="pub-authors mt-1">P. Subramanian, F. Barka-Bouaifel, J. Bouckaert, N. Yamakawa, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">ACS Appl. Mater. Interfaces, 6, 5422 (2014).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Impedimetric Immunosensor Based on Diamond Nanowires Decorated with Nickel Nanoparticles</div>
+							<div class="pub-authors mt-1">P. Subramanian, A. Motorina, W. S. Yeap, K. Haenen, Y. Coffinier, V. Zaitsev, J. Niedziolka-Jonsson, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Analyst, 139, 1726 (2014).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Enhancing LSPR Sensitivity of Au Gratings Through Graphene Coupling to Au Film</div>
+							<div class="pub-authors mt-1">T. Maurer, R. Nicolas, G. Lévêque, P. Subramanian, J. Proust, J. Béal, S. Schuermans, J.-P. Vilcot, Z. Herro, M. Kazan, J. Plain, R. Boukherroub, A. Akjouj, B. Djafari-Rouhani, P.-M. Adam, S. Szunerits</div>
+							<div class="pub-congress">Plasmonics, 9, 507 (2014).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Nanodiamond Particles/Reduced Graphene Oxide Composites as Efficient Supercapacitor Electrodes</div>
+							<div class="pub-authors mt-1">Q. Wang, N. Plylahan, M. V. Shelke, R. R. Devarapalli, M. Li, P. Subramanian, T. Djenizianc, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Carbon, 68, 175 (2014).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Insulin Loaded Iron Magnetic Nanoparticle–Graphene Oxide Composites: Synthesis, Characterization and Application for In Vivo Delivery of Insulin</div>
+							<div class="pub-authors mt-1">K. Turcheniuk, M. Khanal, A. Motorina, P. Subramanian, A. Barras, V. Zaitsev, V. Kuncser, A. Leca, A. Martoriati, K. Cailliau, J-F. Bodart, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">RSC Adv., 4, 865 (2014).</div>
+						</div>
+					</div>
+					<!-- 2013 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2013</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Simultaneous Electrochemical Detection of Tryptophan and Tyrosine using Boron-Doped Diamond and Diamond Nanowire Electrodes</div>
+							<div class="pub-authors mt-1">Q. Wang, A. Vasilescu, P. Subramanian, A. Vezeanu, V. Andrei, Y. Coffinier, M. Li, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Electrochem. Commun., 35, 84 (2013).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Non-Enzymatic Glucose Sensing on long and short Diamond Nanowire Electrodes</div>
+							<div class="pub-authors mt-1">Q. Wang, P. Subramanian, M. Li, W. S. Yeap, K. Haenen, Y. Coffinier, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Electrochem. Commun., 34, 286 (2013).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Lysozyme Detection on Aptamer Functionalized Graphene-Coated SPR Interfaces</div>
+							<div class="pub-authors mt-1">P. Subramanian, A. Lesniewski, I. Kaminska, A. Vlandas, A. Vasilescu, J. Niedziolka-Jonsson, E. Pichonat, H. Happy, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Biosens. Bioelectron., 50, 239 (2013).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Peroxynitrite Activity of Hemin-Functionalized Reduced Graphene Oxide</div>
+							<div class="pub-authors mt-1">R. Oprea, S.F. Peteu, P. Subramanian, W. Qi, E. Pichonat, H. Happy, M. Bayachou, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Analyst, 138, 4345 (2013).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Diamond Nanowires Decorated with Metallic Nanoparticles: A Novel Electrical Interface for Immobilization of Histidinylated Biomolecuels</div>
+							<div class="pub-authors mt-1">P. Subramanian, Y. Coffinier, D. Steinmüller-Nethl, J. Foord, R. Boukherroub, S. Szunerits</div>
+							<div class="pub-congress">Electrochim. Acta, 110, 4 (2013).</div>
+						</div>
+					</div>
+					<!-- 2012 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2012</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Mechanochemical Synthesis and Characterization of High Quality Poly(2,5-Dimethoxy Aniline) Salts</div>
+							<div class="pub-authors mt-1">P. Subramanian, Y-T. Chang, C-M. Liu, P.Manisankar</div>
+							<div class="pub-congress">J. Appl. Polym. Sci.,124, 4281(2012).</div>
+						</div>
+					</div>
+					<!-- 2011 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2011</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Localized Surface Plasmon Resonance Interfaces Coated with Poly[3-(Pyrrolyl)Carboxylic Acid] for Histidine-Tagged Peptide Sensing</div>
+							<div class="pub-authors mt-1">F-Z. Tighilt, P. Subramanian, N. Belhaneche-Bensemra, R. Boukherroub, N. Gabouze, S. Sam and S. Szunerits</div>
+							<div class="pub-congress">Analyst, 136, 4211 (2011).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Mechanochemical Preparation of Polydiphenylamine and its Electrochemical Performance in Hybrid Supercapacitors</div>
+							<div class="pub-authors mt-1">P. Subramanian, P.Manisankar</div>
+							<div class="pub-congress">Electrochim. Acta, 56, 6123 (2011).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Mechanochemical Synthesis of Poly(2,5-Dimethoxy Aniline) and its Electrochemical Performance in Hybrid Supercapacitors</div>
+							<div class="pub-authors mt-1">P. Subramanian, Yu-Tsern Chang, Chung-Ming Liu, P.Manisankar</div>
+							<div class="pub-congress">Ionics, 17, 603 (2011).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Template-Free Mechanochemical Route to Prepare Crystalline and Electroactive Polydiphenylamine Nanostructures</div>
+							<div class="pub-authors mt-1">P. Subramanian, P. Manisankar</div>
+							<div class="pub-congress">Mater. Chem. Phys., 129, 948 (2011).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Preparation of a Functional Nanofibrous Polymer Membrane Incorporated with Poly(2-Aminothio Phenol) Stabilized Gold Nanoparticles</div>
+							<div class="pub-authors mt-1">S. Komathi, P. Subramanian, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
+							<div class="pub-congress">Gold Bull., 44, 37 (2011).</div>
+						</div>
+					</div>
+					<!-- 2010 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2010</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Preparation of Poly(2-Amino Thiophenol) Nanodiscs by a “Combined Hard-Soft Template” Approach and Characterization</div>
+							<div class="pub-authors mt-1">S. Komathi, P. Subramanian, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
+							<div class="pub-congress">J. Colloid Interface Sci., 352, 238 (2010).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Electrochemical Synthesis and Characterization of Poly(Aniline-Co-1-Amino-9,10-Anthraquinone), A Nanosized Conducting Copolymer</div>
+							<div class="pub-authors mt-1">P. Subramanian, P. Manisankar</div>
+							<div class="pub-congress">J. Polym. Res., 18, 311 (2011).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Large Scale Preparation of Polyaniline Nanospheres Anchored with Thiol Stabilized Gold Nanoparticles</div>
+							<div class="pub-authors mt-1">S. Komathi, P. Subramanian, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
+							<div class="pub-congress">J. Nanosci. Nanotechnol.,11, 358 (2011).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Preparation of ultra-long Poly (1,5 Diamino Naphthalene) Nano Belts/ Nano Discs through a Hard-Soft combined Templates Approach</div>
+							<div class="pub-authors mt-1">S.Komathi, P. Subramanian, P.Manisankar, A.Gopalan, K-P. Lee</div>
+							<div class="pub-congress">J. Nanosci. Nanotechnol.,10, 5302 (2010).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Rapid Synthesis of Polypyrrole Nanospheres by Greener Mechanochemical Route</div>
+							<div class="pub-authors mt-1">P. Subramanian, P.Manisankar</div>
+							<div class="pub-congress">Mater. Chem. Phys., 122, 15 (2010).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Electropolymerisation and Characterisation of Nanosize Conducting Poly(O-Chloroaniline-Co -4,4’-Diaminodiphenyl Sulphone) on Polyaniline Modified Electrode</div>
+							<div class="pub-authors mt-1">P. Subramanian, P.Manisankar</div>
+							<div class="pub-congress">Polym. Int., 59, 456 (2010).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Large Scale Preparation of Palladium Nanoparticles Loaded Polyaniline Nanostructures through Seed Induced Bulk Polymerization</div>
+							<div class="pub-authors mt-1">S. Komathi, P. Subramanian, P. Manisankar, A. I. Gopalan, K-P. Lee</div>
+							<div class="pub-congress">Macromol. Chem. Phys., 211, 1330 (2010).</div>
+						</div>
+						<div class="pub-block mt-3">
+							<div class="lucida-console h5">Enhanced Sensing of Carbendazim, A Fungicide on Functionalized Multiwalled Carbon Nanotubes Modified Glassy Carbon Electrode and its Determination in Real Samples</div>
+							<div class="pub-authors mt-1">PL.Abirama Sundari, P. Subramanian, P.Manisankar</div>
+							<div class="pub-congress">Anal. Lett., 43, 1457 (2010).</div>
+						</div>
+					</div>
+					<!-- 2008 -->
+					<div class="row mt-3">
+						<h2 class="pub-year-h2">2008</h2>
+						<div class="pub-block">
+							<div class="lucida-console h5">Electroanalysis of Some Common Pesticides using Conducting Polymer/Multiwalled Carbon Nanotubes Modified Glassy Carbon Electrode</div>
+							<div class="pub-authors mt-1">P.Manisankar, PL.Abirama Sundari, R.Sasikumar, P. Subramanian</div>
+							<div class="pub-congress">Talanta, 76,1022 (2008).</div>
+						</div>
+					</div>
+    				</div>	
 				</div>
+
 
 				<!-- Blog -->
 				<div class="col-md-8 offset-md-1 mb-5" id="blogContent">
@@ -806,6 +1133,64 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 		<script src="assets/js/languageManager.js"></script>
 		<script src="assets/js/main.js"></script>
+<script>
+	// Theme toggling logic
+	function setTheme(theme) {
+		document.body.classList.remove('theme-light', 'theme-dark');
+		document.body.classList.add(theme === 'dark' ? 'theme-dark' : 'theme-light');
+	}
+	document.addEventListener('DOMContentLoaded', function() {
+		setTheme('light'); // Default theme
+		document.getElementById('theme').addEventListener('click', function() {
+			if(document.body.classList.contains('theme-light')) {
+				setTheme('dark');
+			} else {
+				setTheme('light');
+			}
+		});
+
+				// Navbar section switching logic
+				function showSection(sectionId) {
+					// Hide all content sections
+					const sections = [
+						'homeContent', 'aboutmeContent', 'educationContent', 'publicationsContent',
+						'blogContent', 'academicContent', 'conferencesContent', 'experienceContent', 'projectsContent'
+					];
+					sections.forEach(id => {
+						const el = document.getElementById(id);
+						if (el) {
+							el.style.display = 'none';
+							el.classList.remove('active');
+						}
+					});
+					// Show selected section
+					const activeSection = document.getElementById(sectionId);
+					if (activeSection) {
+						activeSection.style.display = '';
+						activeSection.classList.add('active');
+					}
+					// Set active class on navbar
+					document.querySelectorAll('#navbarList .nav-link').forEach(link => {
+						link.classList.remove('active');
+					});
+					const navLink = document.getElementById(sectionId.replace('Content', ''));
+					if (navLink) {
+						navLink.classList.add('active');
+					}
+				}
+
+				// Add click listeners for navbar items
+				document.querySelectorAll('#navbarList .nav-link').forEach(link => {
+					link.addEventListener('click', function(e) {
+						e.preventDefault();
+						showSection(this.id + 'Content');
+					});
+				});
+
+				// Show Home section by default
+				showSection('homeContent');
+	});
+</script>
 	</body>
 
 </html>

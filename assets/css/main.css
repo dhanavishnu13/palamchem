@@ -17,14 +17,31 @@
 	--card-alt-bg: #e0f7fa;
 	--card-shadow: 0 4px 24px rgba(33,150,243,0.10);
 	--profile-link: #2196f3;
-	--navbar-bg: #fafdff;
+	--navbar-bg: #2196f3; /* Always blue */
 	--navbar-shadow: 0 2px 12px rgba(33,150,243,0.07);
+    --home-title-color: #222;
+}
+.theme-dark {
+    --home-title-color: #fff;
+}
+.home-title {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5em;
+    color: var(--home-title-color) !important;
 }
 
 body {
-	background: var(--section-bg) !important;
-	color: #1769aa;
 	min-height: 100vh;
+}
+
+body.theme-light {
+	background: #fff !important;
+	color: #222;
+}
+body.theme-dark {
+	background: #111 !important;
+	color: #eee;
 }
 
 #main-content {
@@ -56,22 +73,48 @@ body {
 	background: var(--section-alt-bg);
 }
 
-/* Navbar styling for more polish */
-#top-nav {
-	background: var(--navbar-bg) !important;
-	box-shadow: var(--navbar-shadow);
+
+body.theme-light #top-nav {
+	background: #2196f3 !important;
 }
+body.theme-dark #top-nav {
+	/* background: #111 !important; */
+	color: #fff !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+#top-nav .navbar,
+#top-nav .navbar-nav,
+#top-nav .navbar-collapse,
+#top-nav .navbar-brand,
+#top-nav .nav-link {
+	background: transparent !important;
+	color: #fff !important;
+}
+
+
+#top-nav .navbar-nav .nav-link {
+	color: #fff !important;
+	font-weight: 500;
+	position: relative;
+	transition: color 0.2s;
+	background: transparent !important;
+}
+
+#top-nav .navbar-nav .nav-link.active,
+#top-nav .navbar-nav .nav-link:focus {
+	text-decoration: underline;
+	text-underline-offset: 4px;
+	color: #fff !important;
+	background: transparent !important;
+}
+
 #top-nav .navbar-brand {
-	color: var(--primary-dark) !important;
+	color: #fff !important;
 	font-weight: 700;
 	letter-spacing: 0.5px;
-}
-#top-nav .nav-link.active {
-	color: var(--accent-dark) !important;
-	font-weight: 600;
-	border-bottom: 2px solid var(--accent-dark);
-	background: linear-gradient(90deg, #e0f7fa 60%, #b2ebf2 100%);
-	border-radius: 0.25rem 0.25rem 0 0;
+	background: transparent !important;
 }
 
 /* Card hover for engagement */
@@ -85,8 +128,20 @@ body {
 	background: linear-gradient(135deg, #e0f7fa 80%, #b2ebf2 100%);
 	border: none;
 	border-radius: 1.5rem;
-	box-shadow: 0 4px 24px rgba(33,150,243,0.13);
-	color: #1769aa;
+		box-shadow: 0 4px 24px rgba(33,150,243,0.13);
+		color: var(--home-title-color);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+
+body.theme-dark .profile-card {
+	background: #222 !important;
+	color: #eee !important;
+		box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 }
 
 .hero-section {
@@ -156,7 +211,7 @@ body {
 	#top-nav .navbar-brand {
 		display: block !important;
 		font-weight: 600;
-		color: var(--primary-dark);
+		/* color: var(--primary-dark); */
 		font-size: 1.2rem;
 		letter-spacing: 0.5px;
 		margin-right: 1rem;
@@ -244,8 +299,17 @@ li > .active {
 	max-height: 300px;
 	min-width: 150px;
 	min-height: 150px;
-	margin-left: auto;
-	margin-right: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		margin-bottom: 0;
+	color: var(--home-title-color) !important;
+	font-weight: 700;
+	margin-bottom: 0.5em;
+	text-align: center;
+	color: var(--home-title-color) !important;
+	text-align: center;
 }
 
 .fseneca {

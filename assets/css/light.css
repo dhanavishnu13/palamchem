@@ -9,12 +9,15 @@ body {
 	color: var(--t-color);
 }
 
-h1, h2, h3, h4, b {
+h1, h2, b {
 	color: var(--t-color) !important;
+}
+h3, h4 {
+	color: #000 !important;
 }
 
 #top-nav {
-	background-color:rgb(248, 249, 250) !important;
+	background-color: #fff !important;
 }
 
 .nav-link {
