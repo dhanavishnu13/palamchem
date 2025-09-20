@@ -74,6 +74,11 @@ body.theme-dark {
 }
 
 
+/* Default navbar styling (before theme classes are applied) */
+#top-nav {
+	background: #2196f3 !important;
+}
+
 body.theme-light #top-nav {
 	background: #2196f3 !important;
 }
