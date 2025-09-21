@@ -530,3 +530,48 @@ li > .active {
 [id$="Content"].active {
 	display: block;
 }
+
+/* Mobile profile card optimization */
+@media (max-width: 767px) {
+	#section-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#leftPanel {
+		order: -1; /* Move profile card to top on mobile */
+		margin-bottom: 2rem;
+	}
+
+	.profile-card {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.profilepicture {
+		width: 120px;
+		height: 120px;
+		object-fit: cover;
+	}
+
+	.profile-card .card-body {
+		padding: 1.5rem 1rem;
+	}
+
+	.profile-card h3 {
+		font-size: 1.3rem;
+	}
+
+	.profile-card p {
+		font-size: 0.85rem;
+	}
+
+	/* Content sections on mobile */
+	[id$="Content"] {
+		padding: 0 1rem;
+	}
+
+	.col-md-8.offset-md-1 {
+		margin-left: 0 !important;
+	}
+}
