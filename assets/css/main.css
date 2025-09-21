@@ -575,3 +575,49 @@ li > .active {
 		margin-left: 0 !important;
 	}
 }
+
+/* About Me section styling */
+.education-item, .experience-item {
+	margin-bottom: 1.5rem;
+	padding: 1rem;
+	background: var(--card-bg);
+	border-radius: 0.8rem;
+	border-left: 4px solid var(--primary);
+	box-shadow: 0 2px 8px rgba(33,150,243,0.08);
+}
+
+.stats-container {
+	background: var(--section-bg);
+	padding: 1.5rem;
+	border-radius: 1rem;
+	margin: 1rem 0;
+}
+
+.awards-list {
+	list-style: none;
+	padding: 0;
+}
+
+.awards-list li {
+	padding: 0.8rem 1rem;
+	margin-bottom: 0.5rem;
+	background: var(--card-alt-bg);
+	border-radius: 0.5rem;
+	border-left: 3px solid var(--accent);
+}
+
+body.theme-dark .education-item,
+body.theme-dark .experience-item {
+	background: #333 !important;
+	border-left: 4px solid #43e97b;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+body.theme-dark .stats-container {
+	background: #2a2a2a !important;
+}
+
+body.theme-dark .awards-list li {
+	background: #333 !important;
+	border-left: 3px solid #43e97b;
+}
