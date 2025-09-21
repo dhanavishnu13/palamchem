@@ -15,6 +15,24 @@ $(document).ready(function(){
 	$('#theme').hide();
 	$('#lan').hide();
 
+	// Handle 'Home' content
+	$('#home').click(function(e) {
+
+		// If the div has already the class active, no need to reload the divs...
+		if(!$(e.target).hasClass('active')) {
+			// Update navbar
+			clearActiveLinks();
+			activateLink(e);
+
+			// Hide other contents
+			clearActiveDivs();
+
+			// Show current content
+			activateDiv('#homeContent');
+		}
+
+	});
+
 	// Handle 'About Me' content
 	$('#aboutme').click(function(e) {
 
