@@ -215,12 +215,8 @@ $(document).ready(function(){
 	// Omit this part if you don't have more content
 	// *************************** //
 	
-	// If the user has not selected a theme, then select the default one according to the user's preferences
-	if(localStorage.getItem("theme") === null){
-		localStorage.theme = "light";
-		if (window.matchMedia('(prefers-color-scheme: dark)').matches)
-			localStorage.theme = "dark";
-	}
+	// Always force light theme as default, regardless of previous settings or environment
+	localStorage.theme = "light";
 
 	// Always load the light theme
 	$('<link>').appendTo('head').attr({

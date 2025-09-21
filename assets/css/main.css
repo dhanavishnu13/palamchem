@@ -521,3 +521,12 @@ li > .active {
 		margin-left: 40px;
 	}
 }
+
+/* Content section management */
+[id$="Content"] {
+	display: none;
+}
+
+[id$="Content"].active {
+	display: block;
+}
