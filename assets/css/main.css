@@ -531,6 +531,53 @@ li > .active {
 	display: block;
 }
 
+/* Enhanced home page styling */
+.home-intro-text {
+	font-size: 1.15rem;
+	line-height: 1.6;
+}
+
+.section-icon {
+	color: var(--primary);
+	opacity: 0.8;
+}
+
+/* Lead text styling for introduction */
+.lead {
+	font-size: 1.15rem;
+	font-weight: 400;
+	line-height: 1.6;
+	opacity: 0.9;
+}
+
+/* Small mobile devices (480px and below) */
+@media (max-width: 480px) {
+	.section-card, .section-card-alt {
+		margin: 0 -0.5rem 1.5rem -0.5rem;
+		padding: 1.25rem 0.75rem;
+		border-radius: 1rem;
+	}
+
+	.home-title {
+		font-size: 1.6rem;
+		margin-bottom: 1rem;
+	}
+
+	.lead {
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+
+	#homeContent h4 {
+		font-size: 1.1rem;
+	}
+
+	#homeContent p {
+		font-size: 0.9rem;
+		line-height: 1.5;
+	}
+}
+
 /* Mobile profile card optimization */
 @media (max-width: 767px) {
 	#section-content {
@@ -573,6 +620,20 @@ li > .active {
 
 	.col-md-8.offset-md-1 {
 		margin-left: 0 !important;
+	}
+
+	/* Home page mobile enhancements */
+	.section-card, .section-card-alt {
+		margin-bottom: 1.5rem;
+		padding: 1.5rem 1rem;
+	}
+
+	.home-title {
+		font-size: 1.8rem;
+	}
+
+	.lead {
+		font-size: 1.05rem;
 	}
 }
 
@@ -620,4 +681,51 @@ body.theme-dark .stats-container {
 body.theme-dark .awards-list li {
 	background: #333 !important;
 	border-left: 3px solid #43e97b;
+}
+
+/* Tablet optimizations */
+@media (min-width: 768px) and (max-width: 1199px) {
+	.section-card, .section-card-alt {
+		padding: 2rem 1.5rem;
+	}
+
+	.home-title {
+		font-size: 2rem;
+	}
+}
+
+/* Large screen enhancements */
+@media (min-width: 1200px) {
+	.section-card, .section-card-alt {
+		padding: 2.5rem 2rem 2rem 2rem;
+	}
+}
+
+/* Better visual hierarchy for home sections */
+#homeContent h4 {
+	font-weight: 600;
+	color: var(--primary-dark);
+	margin-bottom: 1rem;
+	margin-top: 0;
+}
+
+#homeContent .section-card h4,
+#homeContent .section-card-alt h4 {
+	border-bottom: 2px solid rgba(33,150,243,0.1);
+	padding-bottom: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+
+/* Icon enhancements */
+.fa-flask, .fa-graduation-cap, .fa-lightbulb, .fa-heart {
+	color: var(--primary);
+	opacity: 0.7;
+}
+
+body.theme-dark .fa-flask,
+body.theme-dark .fa-graduation-cap,
+body.theme-dark .fa-lightbulb,
+body.theme-dark .fa-heart {
+	color: var(--accent);
+	opacity: 0.8;
 }
