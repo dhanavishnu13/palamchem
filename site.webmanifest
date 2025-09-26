@@ -1,0 +1,21 @@
+{
+    "name": "Dr. Palaniappan Subramanian - Electrochemistry Researcher",
+    "short_name": "Dr. Palaniappan",
+    "description": "Senior Researcher in Renewable Energy at New Technologies Research Centre, University of West Bohemia. Expert in fuel cells, metal-air batteries, and electrochemical energy storage technologies.",
+    "icons": [
+        {
+            "src": "/assets/documents/imgs/palam.jpeg",
+            "sizes": "192x192",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "/assets/documents/imgs/palam.jpeg",
+            "sizes": "512x512",
+            "type": "image/jpeg"
+        }
+    ],
+    "theme_color": "#2196f3",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "start_url": "/"
+}
